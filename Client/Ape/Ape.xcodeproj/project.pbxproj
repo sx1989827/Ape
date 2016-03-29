@@ -29,9 +29,6 @@
 		417A0B771CAA42D90073AD68 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0B681CAA42D80073AD68 /* UIView+Category.m */; };
 		417A0B781CAA42D90073AD68 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0B6A1CAA42D80073AD68 /* UIViewController+Category.m */; };
 		417A0CE51CAA4C240073AD68 /* Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0CE41CAA4C240073AD68 /* Hook.m */; };
-		417A0CE91CAA4CAD0073AD68 /* BaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0CE81CAA4CAD0073AD68 /* BaseVM.m */; };
-		417A0CEE1CAA4CBA0073AD68 /* BaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 417A0CEB1CAA4CBA0073AD68 /* BaseVC.bundle */; };
-		417A0CEF1CAA4CBA0073AD68 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0CED1CAA4CBA0073AD68 /* BaseViewController.m */; };
 		417A0CF51CAA4E8D0073AD68 /* Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0CF21CAA4E8D0073AD68 /* Define.m */; };
 		417A0CF61CAA4E8D0073AD68 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0CF41CAA4E8D0073AD68 /* Util.m */; };
 		417A0CFB1CAA4FB90073AD68 /* HudView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 417A0CF81CAA4FB90073AD68 /* HudView.bundle */; };
@@ -43,6 +40,12 @@
 		417A0D111CAA51530073AD68 /* VCAnimateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D081CAA51530073AD68 /* VCAnimateBase.m */; };
 		417A0D121CAA51530073AD68 /* VCAnimateDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D0A1CAA51530073AD68 /* VCAnimateDefine.m */; };
 		417A0D131CAA51530073AD68 /* VCAnimateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D0C1CAA51530073AD68 /* VCAnimateManager.m */; };
+		417A0D171CAA52260073AD68 /* BaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D161CAA52260073AD68 /* BaseVM.m */; };
+		417A0D1C1CAA52410073AD68 /* BaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 417A0D191CAA52410073AD68 /* BaseVC.bundle */; };
+		417A0D1D1CAA52410073AD68 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D1B1CAA52410073AD68 /* BaseViewController.m */; };
+		417A0D221CAA52BD0073AD68 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D211CAA52BD0073AD68 /* BaseRequest.m */; };
+		417A0D271CAA54CA0073AD68 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D251CAA54CA0073AD68 /* RegisterVC.m */; };
+		417A0D281CAA54CA0073AD68 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417A0D261CAA54CA0073AD68 /* RegisterVC.xib */; };
 		9B6FE50240853D7B0F9BC568 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E1366A2619C55CB0A855F1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -109,11 +112,6 @@
 		417A0B6A1CAA42D80073AD68 /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
 		417A0CE31CAA4C240073AD68 /* Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hook.h; sourceTree = "<group>"; };
 		417A0CE41CAA4C240073AD68 /* Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hook.m; sourceTree = "<group>"; };
-		417A0CE71CAA4CAD0073AD68 /* BaseVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVM.h; sourceTree = "<group>"; };
-		417A0CE81CAA4CAD0073AD68 /* BaseVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVM.m; sourceTree = "<group>"; };
-		417A0CEB1CAA4CBA0073AD68 /* BaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaseVC.bundle; sourceTree = "<group>"; };
-		417A0CEC1CAA4CBA0073AD68 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		417A0CED1CAA4CBA0073AD68 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		417A0CF11CAA4E8D0073AD68 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		417A0CF21CAA4E8D0073AD68 /* Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Define.m; sourceTree = "<group>"; };
 		417A0CF31CAA4E8D0073AD68 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
@@ -135,6 +133,16 @@
 		417A0D0A1CAA51530073AD68 /* VCAnimateDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimateDefine.m; sourceTree = "<group>"; };
 		417A0D0B1CAA51530073AD68 /* VCAnimateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimateManager.h; sourceTree = "<group>"; };
 		417A0D0C1CAA51530073AD68 /* VCAnimateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimateManager.m; sourceTree = "<group>"; };
+		417A0D151CAA52260073AD68 /* BaseVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVM.h; sourceTree = "<group>"; };
+		417A0D161CAA52260073AD68 /* BaseVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVM.m; sourceTree = "<group>"; };
+		417A0D191CAA52410073AD68 /* BaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaseVC.bundle; sourceTree = "<group>"; };
+		417A0D1A1CAA52410073AD68 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		417A0D1B1CAA52410073AD68 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		417A0D201CAA52BD0073AD68 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		417A0D211CAA52BD0073AD68 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		417A0D241CAA54CA0073AD68 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		417A0D251CAA54CA0073AD68 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		417A0D261CAA54CA0073AD68 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		42E1366A2619C55CB0A855F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F0C3142401FBE729A0F517 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +205,7 @@
 				417872DF1CA93C19002E4BFF /* LaunchScreen.storyboard */,
 				417872E21CA93C19002E4BFF /* Info.plist */,
 				417A0CE11CAA4C240073AD68 /* Component */,
+				417A0D1E1CAA52720073AD68 /* Request */,
 				417A0B4E1CAA42D80073AD68 /* Category */,
 				417A0CDF1CAA44A50073AD68 /* Model */,
 				417A0CE61CAA4CAD0073AD68 /* ViewModel */,
@@ -277,7 +286,8 @@
 		417A0CE01CAA44B90073AD68 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				417A0CEA1CAA4CBA0073AD68 /* Base */,
+				417A0D181CAA52410073AD68 /* BaseVC */,
+				417A0D231CAA54790073AD68 /* Login */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -305,20 +315,9 @@
 		417A0CE61CAA4CAD0073AD68 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				417A0CE71CAA4CAD0073AD68 /* BaseVM.h */,
-				417A0CE81CAA4CAD0073AD68 /* BaseVM.m */,
+				417A0D141CAA52260073AD68 /* BaseVM */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		417A0CEA1CAA4CBA0073AD68 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				417A0CEB1CAA4CBA0073AD68 /* BaseVC.bundle */,
-				417A0CEC1CAA4CBA0073AD68 /* BaseViewController.h */,
-				417A0CED1CAA4CBA0073AD68 /* BaseViewController.m */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		417A0CF01CAA4E8D0073AD68 /* Util */ = {
@@ -369,6 +368,52 @@
 				417A0D061CAA51530073AD68 /* AnimateTest.m */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		417A0D141CAA52260073AD68 /* BaseVM */ = {
+			isa = PBXGroup;
+			children = (
+				417A0D151CAA52260073AD68 /* BaseVM.h */,
+				417A0D161CAA52260073AD68 /* BaseVM.m */,
+			);
+			path = BaseVM;
+			sourceTree = "<group>";
+		};
+		417A0D181CAA52410073AD68 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				417A0D191CAA52410073AD68 /* BaseVC.bundle */,
+				417A0D1A1CAA52410073AD68 /* BaseViewController.h */,
+				417A0D1B1CAA52410073AD68 /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		417A0D1E1CAA52720073AD68 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				417A0D1F1CAA52720073AD68 /* BaseRequest */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		417A0D1F1CAA52720073AD68 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				417A0D201CAA52BD0073AD68 /* BaseRequest.h */,
+				417A0D211CAA52BD0073AD68 /* BaseRequest.m */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		417A0D231CAA54790073AD68 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				417A0D241CAA54CA0073AD68 /* RegisterVC.h */,
+				417A0D251CAA54CA0073AD68 /* RegisterVC.m */,
+				417A0D261CAA54CA0073AD68 /* RegisterVC.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		E8B8F7552087C0052D2AA061 /* Frameworks */ = {
@@ -495,9 +540,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417A0D1C1CAA52410073AD68 /* BaseVC.bundle in Resources */,
 				417872E11CA93C19002E4BFF /* LaunchScreen.storyboard in Resources */,
-				417A0CEE1CAA4CBA0073AD68 /* BaseVC.bundle in Resources */,
 				417872DE1CA93C19002E4BFF /* Assets.xcassets in Resources */,
+				417A0D281CAA54CA0073AD68 /* RegisterVC.xib in Resources */,
 				417A0CFB1CAA4FB90073AD68 /* HudView.bundle in Resources */,
 				417872DC1CA93C19002E4BFF /* Main.storyboard in Resources */,
 			);
@@ -572,12 +618,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				417A0CEF1CAA4CBA0073AD68 /* BaseViewController.m in Sources */,
 				417A0B6E1CAA42D80073AD68 /* NSTimer+Category.m in Sources */,
 				417A0D0E1CAA51530073AD68 /* AnimatePhoto.m in Sources */,
 				417872D61CA93C19002E4BFF /* AppDelegate.m in Sources */,
 				417A0B6F1CAA42D80073AD68 /* UIActionSheet+Blocks.m in Sources */,
 				417A0B781CAA42D90073AD68 /* UIViewController+Category.m in Sources */,
+				417A0D1D1CAA52410073AD68 /* BaseViewController.m in Sources */,
 				417A0CF61CAA4E8D0073AD68 /* Util.m in Sources */,
 				417A0D101CAA51530073AD68 /* AnimateTest.m in Sources */,
 				417A0CFC1CAA4FB90073AD68 /* HudView.m in Sources */,
@@ -591,9 +637,11 @@
 				417A0D0D1CAA51530073AD68 /* AnimateGravity.m in Sources */,
 				417A0B731CAA42D90073AD68 /* UIImage+Extention.m in Sources */,
 				417A0D0F1CAA51530073AD68 /* AnimatePushPop.m in Sources */,
-				417A0CE91CAA4CAD0073AD68 /* BaseVM.m in Sources */,
 				417A0B751CAA42D90073AD68 /* UINavigationBar+ClearColor.m in Sources */,
+				417A0D171CAA52260073AD68 /* BaseVM.m in Sources */,
 				417A0CF51CAA4E8D0073AD68 /* Define.m in Sources */,
+				417A0D221CAA52BD0073AD68 /* BaseRequest.m in Sources */,
+				417A0D271CAA54CA0073AD68 /* RegisterVC.m in Sources */,
 				417872D31CA93C19002E4BFF /* main.m in Sources */,
 				417A0D111CAA51530073AD68 /* VCAnimateBase.m in Sources */,
 				417A0CE51CAA4C240073AD68 /* Hook.m in Sources */,

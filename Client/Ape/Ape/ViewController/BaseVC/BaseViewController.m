@@ -11,7 +11,7 @@
 #import <POP.h>
 #import "UIColor+Category.h"
 #import "UIImage+Extention.h"
-//#import "VCAnimateManager.h"
+#import "VCAnimateManager.h"
 #import <AFNetworking.h>
 static UIImageView *g_navBarHairlineImageView;
 static __weak UINavigationController *g_nav;
