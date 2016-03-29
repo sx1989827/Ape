@@ -1,0 +1,9 @@
+platform :ios, '7.0'
+pod "SVProgressHUD"
+pod "SDWebImage"
+pod "pop"
+pod "IQKeyboardManager"
+pod "AFNetworking","2.6.3"
+pod "LazyTableView"
+pod "LazyPageScrollView"
+pod "RunTrace"
