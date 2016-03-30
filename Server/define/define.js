@@ -32,5 +32,6 @@ exports.retCode={
     userNotFound:1,
     userOrPwdWrong:2,
     missParam:3,
-    otherReason:4
+    methodNotFound:4,
+    otherReason:5
 }
