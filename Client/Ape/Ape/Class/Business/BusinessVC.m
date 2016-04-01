@@ -1,22 +1,22 @@
 //
-//  RegisterVC.m
+//  BusinessVC.m
 //  Ape
 //
-//  Created by Geminy on 16/3/29.
+//  Created by Geminy on 16/3/31.
 //  Copyright © 2016年 Geminy. All rights reserved.
 //
 
-#import "RegisterVC.h"
+#import "BusinessVC.h"
 
-@interface RegisterVC ()
+@interface BusinessVC ()
 
 @end
 
-@implementation RegisterVC
+@implementation BusinessVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

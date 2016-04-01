@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1D557A487C551F3DE304EA39'
+               BlueprintIdentifier = '0EA3EC7FCC698C6A6D366AC9'
                BlueprintName = 'LazyPageScrollView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libLazyPageScrollView.a'>

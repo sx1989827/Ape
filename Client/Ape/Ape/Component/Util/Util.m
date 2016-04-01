@@ -100,7 +100,7 @@
 //验证手机
 +(BOOL)checkMoblieNumber:(NSString *)number
 {
-    NSString * MOBILE = @"^1[3|4|5|7|8][0-9]\\d{8}$";
+    NSString * MOBILE = @"^1[0-9][0-9]\\d{8}$";
     NSPredicate *regextestmobile = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", MOBILE];
     BOOL res1 = [regextestmobile evaluateWithObject:number];
     if (res1)

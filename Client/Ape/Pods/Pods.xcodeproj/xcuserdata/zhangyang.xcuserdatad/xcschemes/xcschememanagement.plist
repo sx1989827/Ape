@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DBGuestureLock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,17 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>198D50969ABC341F2547D1936489F5AF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1C59699F4EE77291CF81340B0BF61452</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>33E4611BB94D51B974FA05F7D076ED98</key>
+		<key>116A1EECA6006277AB6880EF49FD7A65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,12 +87,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5CF77BB15C1C625BC980C3F44A6C28DB</key>
+		<key>6B6AF80E4230F51D3AF6563107ECDCE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98B51ABE3F32B7FFA92E72FDFE0B8531</key>
+		<key>7543FD9147F8B3DD2C76CE727265FF1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B5A67E39FC471DECE6F1C8E27D3A125</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -113,6 +113,16 @@
 			<true/>
 		</dict>
 		<key>CDC34A034F5AA169FBB9CC0BA19F89D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAC9D67C1BCA16F3D8BDB02F19792DCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F83E97CA945BF92B45EE351BA5AF5826</key>
 		<dict>
 			<key>primary</key>
 			<true/>

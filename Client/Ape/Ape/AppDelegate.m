@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "RegisterVC.h"
+#import "Define.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    
+//    _window = [[UIWindow alloc] initWithFrame:SCREENFRAME];
+//    [_window makeKeyAndVisible];
+//
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[RegisterVC new]];
+//    _window.rootViewController = nav;
 
     return YES;
 }

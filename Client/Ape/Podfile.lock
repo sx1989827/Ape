@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - DBGuestureLock (0.0.2)
   - IQKeyboardManager (3.3.7)
   - JSONModel (1.2.0)
   - LazyPageScrollView (1.2)
@@ -37,6 +38,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (= 2.6.3)
+  - DBGuestureLock
   - IQKeyboardManager
   - LazyPageScrollView
   - LazyTableView
@@ -47,6 +49,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DBGuestureLock: 9b8c56e278ad47e49ed400584dca6be5a0257519
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   LazyPageScrollView: 03ba7705e9f9cfecb1577f9ee2c6e194cca47c7e

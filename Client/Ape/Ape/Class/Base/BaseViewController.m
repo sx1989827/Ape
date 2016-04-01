@@ -61,7 +61,7 @@ static NSString *g_backImg;
     [self.navigationItem setHidesBackButton:YES];
     self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
     bHideBackButton=NO;
-    _bHud=YES;
+    _bHud=NO;
     _bAutoHiddenBar=NO;
     _bFirstAppear=YES;
     if(self.hidesBottomBarWhenPushed==YES)

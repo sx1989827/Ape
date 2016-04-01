@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '840DC08E82AB7AD13FD41B44'
+               BlueprintIdentifier = 'DB50322052B726F4D9FF944F'
                BlueprintName = 'LazyTableView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libLazyTableView.a'>
