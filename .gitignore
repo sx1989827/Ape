@@ -3,3 +3,5 @@
 *.xcscheme
 
 *.xcbkptlist
+
+Server/.idea/workspace.xml
