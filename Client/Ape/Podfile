@@ -1,4 +1,5 @@
 platform :ios, '7.0'
+
 pod "SVProgressHUD"
 pod "SDWebImage"
 pod "pop"
@@ -8,3 +9,4 @@ pod "LazyTableView"
 pod "LazyPageScrollView"
 pod "RunTrace"
 pod "DBGuestureLock"
+pod "ReactiveCocoa"

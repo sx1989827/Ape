@@ -54,19 +54,19 @@
 		417A0D111CAA51530073AD68 /* VCAnimateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D081CAA51530073AD68 /* VCAnimateBase.m */; };
 		417A0D121CAA51530073AD68 /* VCAnimateDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D0A1CAA51530073AD68 /* VCAnimateDefine.m */; };
 		417A0D131CAA51530073AD68 /* VCAnimateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A0D0C1CAA51530073AD68 /* VCAnimateManager.m */; };
-		417B2A271CAD4BE500D9CFD3 /* BaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 417B2A091CAD4BE500D9CFD3 /* BaseVC.bundle */; };
-		417B2A281CAD4BE500D9CFD3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A0B1CAD4BE500D9CFD3 /* BaseViewController.m */; };
-		417B2A291CAD4BE500D9CFD3 /* BusinessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A0E1CAD4BE500D9CFD3 /* BusinessVC.m */; };
-		417B2A2A1CAD4BE500D9CFD3 /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A111CAD4BE500D9CFD3 /* FindVC.m */; };
-		417B2A2B1CAD4BE500D9CFD3 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A141CAD4BE500D9CFD3 /* HomeVC.m */; };
-		417B2A2C1CAD4BE500D9CFD3 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A171CAD4BE500D9CFD3 /* RegisterVC.m */; };
-		417B2A2D1CAD4BE500D9CFD3 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417B2A181CAD4BE500D9CFD3 /* RegisterVC.xib */; };
-		417B2A2E1CAD4BE500D9CFD3 /* SetGestureCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A1A1CAD4BE500D9CFD3 /* SetGestureCodeVC.m */; };
-		417B2A2F1CAD4BE500D9CFD3 /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A1C1CAD4BE500D9CFD3 /* ZYTextField.m */; };
-		417B2A311CAD4BE500D9CFD3 /* FavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A211CAD4BE500D9CFD3 /* FavoritesVC.m */; };
-		417B2A321CAD4BE500D9CFD3 /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A231CAD4BE500D9CFD3 /* MineCell.m */; };
-		417B2A331CAD4BE500D9CFD3 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417B2A241CAD4BE500D9CFD3 /* MineCell.xib */; };
-		417B2A341CAD4BE500D9CFD3 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B2A261CAD4BE500D9CFD3 /* MineVC.m */; };
+		4198C1D91CC600F6001E601C /* BaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4198C1BC1CC600F6001E601C /* BaseVC.bundle */; };
+		4198C1DA1CC600F6001E601C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1BE1CC600F6001E601C /* BaseViewController.m */; };
+		4198C1DB1CC600F6001E601C /* BusinessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1C11CC600F6001E601C /* BusinessVC.m */; };
+		4198C1DC1CC600F6001E601C /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1C41CC600F6001E601C /* FindVC.m */; };
+		4198C1DD1CC600F6001E601C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1C71CC600F6001E601C /* HomeVC.m */; };
+		4198C1DE1CC600F6001E601C /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1CA1CC600F6001E601C /* RegisterVC.m */; };
+		4198C1DF1CC600F6001E601C /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4198C1CB1CC600F6001E601C /* RegisterVC.xib */; };
+		4198C1E01CC600F6001E601C /* SetGestureCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1CD1CC600F6001E601C /* SetGestureCodeVC.m */; };
+		4198C1E11CC600F6001E601C /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1CF1CC600F6001E601C /* ZYTextField.m */; };
+		4198C1E21CC600F6001E601C /* FavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1D31CC600F6001E601C /* FavoritesVC.m */; };
+		4198C1E31CC600F6001E601C /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1D51CC600F6001E601C /* MineCell.m */; };
+		4198C1E41CC600F6001E601C /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4198C1D61CC600F6001E601C /* MineCell.xib */; };
+		4198C1E51CC600F6001E601C /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198C1D81CC600F6001E601C /* MineVC.m */; };
 		9B6FE50240853D7B0F9BC568 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E1366A2619C55CB0A855F1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -187,29 +187,29 @@
 		417A0D0A1CAA51530073AD68 /* VCAnimateDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimateDefine.m; sourceTree = "<group>"; };
 		417A0D0B1CAA51530073AD68 /* VCAnimateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimateManager.h; sourceTree = "<group>"; };
 		417A0D0C1CAA51530073AD68 /* VCAnimateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimateManager.m; sourceTree = "<group>"; };
-		417B2A091CAD4BE500D9CFD3 /* BaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaseVC.bundle; sourceTree = "<group>"; };
-		417B2A0A1CAD4BE500D9CFD3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		417B2A0B1CAD4BE500D9CFD3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		417B2A0D1CAD4BE500D9CFD3 /* BusinessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessVC.h; sourceTree = "<group>"; };
-		417B2A0E1CAD4BE500D9CFD3 /* BusinessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessVC.m; sourceTree = "<group>"; };
-		417B2A101CAD4BE500D9CFD3 /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
-		417B2A111CAD4BE500D9CFD3 /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
-		417B2A131CAD4BE500D9CFD3 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
-		417B2A141CAD4BE500D9CFD3 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		417B2A161CAD4BE500D9CFD3 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
-		417B2A171CAD4BE500D9CFD3 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
-		417B2A181CAD4BE500D9CFD3 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
-		417B2A191CAD4BE500D9CFD3 /* SetGestureCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGestureCodeVC.h; sourceTree = "<group>"; };
-		417B2A1A1CAD4BE500D9CFD3 /* SetGestureCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGestureCodeVC.m; sourceTree = "<group>"; };
-		417B2A1B1CAD4BE500D9CFD3 /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
-		417B2A1C1CAD4BE500D9CFD3 /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
-		417B2A201CAD4BE500D9CFD3 /* FavoritesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesVC.h; sourceTree = "<group>"; };
-		417B2A211CAD4BE500D9CFD3 /* FavoritesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesVC.m; sourceTree = "<group>"; };
-		417B2A221CAD4BE500D9CFD3 /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
-		417B2A231CAD4BE500D9CFD3 /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
-		417B2A241CAD4BE500D9CFD3 /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
-		417B2A251CAD4BE500D9CFD3 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
-		417B2A261CAD4BE500D9CFD3 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		4198C1BC1CC600F6001E601C /* BaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaseVC.bundle; sourceTree = "<group>"; };
+		4198C1BD1CC600F6001E601C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4198C1BE1CC600F6001E601C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4198C1C01CC600F6001E601C /* BusinessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessVC.h; sourceTree = "<group>"; };
+		4198C1C11CC600F6001E601C /* BusinessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessVC.m; sourceTree = "<group>"; };
+		4198C1C31CC600F6001E601C /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
+		4198C1C41CC600F6001E601C /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
+		4198C1C61CC600F6001E601C /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		4198C1C71CC600F6001E601C /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		4198C1C91CC600F6001E601C /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		4198C1CA1CC600F6001E601C /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		4198C1CB1CC600F6001E601C /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		4198C1CC1CC600F6001E601C /* SetGestureCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGestureCodeVC.h; sourceTree = "<group>"; };
+		4198C1CD1CC600F6001E601C /* SetGestureCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGestureCodeVC.m; sourceTree = "<group>"; };
+		4198C1CE1CC600F6001E601C /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
+		4198C1CF1CC600F6001E601C /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
+		4198C1D21CC600F6001E601C /* FavoritesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesVC.h; sourceTree = "<group>"; };
+		4198C1D31CC600F6001E601C /* FavoritesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesVC.m; sourceTree = "<group>"; };
+		4198C1D41CC600F6001E601C /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		4198C1D51CC600F6001E601C /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
+		4198C1D61CC600F6001E601C /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		4198C1D71CC600F6001E601C /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		4198C1D81CC600F6001E601C /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		42E1366A2619C55CB0A855F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F0C3142401FBE729A0F517 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -344,7 +344,7 @@
 				417A0CDF1CAA44A50073AD68 /* Model */,
 				417A0D1E1CAA52720073AD68 /* Request */,
 				417A0CE61CAA4CAD0073AD68 /* ViewModel */,
-				417B2A071CAD4BE500D9CFD3 /* Class */,
+				4198C1BA1CC600F6001E601C /* ViewController */,
 				417872D11CA93C19002E4BFF /* Supporting Files */,
 			);
 			path = Ape;
@@ -507,88 +507,88 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
-		417B2A071CAD4BE500D9CFD3 /* Class */ = {
+		4198C1BA1CC600F6001E601C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A081CAD4BE500D9CFD3 /* Base */,
-				417B2A151CAD4BE500D9CFD3 /* Login */,
-				417B2A121CAD4BE500D9CFD3 /* Home */,
-				417B2A0F1CAD4BE500D9CFD3 /* Find */,
-				417B2A0C1CAD4BE500D9CFD3 /* Business */,
-				417B2A1D1CAD4BE500D9CFD3 /* Mine */,
+				4198C1BB1CC600F6001E601C /* Base */,
+				4198C1BF1CC600F6001E601C /* Business */,
+				4198C1C21CC600F6001E601C /* Find */,
+				4198C1C51CC600F6001E601C /* Home */,
+				4198C1C81CC600F6001E601C /* Login */,
+				4198C1D01CC600F6001E601C /* Mine */,
 			);
-			path = Class;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		417B2A081CAD4BE500D9CFD3 /* Base */ = {
+		4198C1BB1CC600F6001E601C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A091CAD4BE500D9CFD3 /* BaseVC.bundle */,
-				417B2A0A1CAD4BE500D9CFD3 /* BaseViewController.h */,
-				417B2A0B1CAD4BE500D9CFD3 /* BaseViewController.m */,
+				4198C1BC1CC600F6001E601C /* BaseVC.bundle */,
+				4198C1BD1CC600F6001E601C /* BaseViewController.h */,
+				4198C1BE1CC600F6001E601C /* BaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		417B2A0C1CAD4BE500D9CFD3 /* Business */ = {
+		4198C1BF1CC600F6001E601C /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A0D1CAD4BE500D9CFD3 /* BusinessVC.h */,
-				417B2A0E1CAD4BE500D9CFD3 /* BusinessVC.m */,
+				4198C1C01CC600F6001E601C /* BusinessVC.h */,
+				4198C1C11CC600F6001E601C /* BusinessVC.m */,
 			);
 			path = Business;
 			sourceTree = "<group>";
 		};
-		417B2A0F1CAD4BE500D9CFD3 /* Find */ = {
+		4198C1C21CC600F6001E601C /* Find */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A101CAD4BE500D9CFD3 /* FindVC.h */,
-				417B2A111CAD4BE500D9CFD3 /* FindVC.m */,
+				4198C1C31CC600F6001E601C /* FindVC.h */,
+				4198C1C41CC600F6001E601C /* FindVC.m */,
 			);
 			path = Find;
 			sourceTree = "<group>";
 		};
-		417B2A121CAD4BE500D9CFD3 /* Home */ = {
+		4198C1C51CC600F6001E601C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A131CAD4BE500D9CFD3 /* HomeVC.h */,
-				417B2A141CAD4BE500D9CFD3 /* HomeVC.m */,
+				4198C1C61CC600F6001E601C /* HomeVC.h */,
+				4198C1C71CC600F6001E601C /* HomeVC.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		417B2A151CAD4BE500D9CFD3 /* Login */ = {
+		4198C1C81CC600F6001E601C /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A161CAD4BE500D9CFD3 /* RegisterVC.h */,
-				417B2A171CAD4BE500D9CFD3 /* RegisterVC.m */,
-				417B2A181CAD4BE500D9CFD3 /* RegisterVC.xib */,
-				417B2A191CAD4BE500D9CFD3 /* SetGestureCodeVC.h */,
-				417B2A1A1CAD4BE500D9CFD3 /* SetGestureCodeVC.m */,
-				417B2A1B1CAD4BE500D9CFD3 /* ZYTextField.h */,
-				417B2A1C1CAD4BE500D9CFD3 /* ZYTextField.m */,
+				4198C1C91CC600F6001E601C /* RegisterVC.h */,
+				4198C1CA1CC600F6001E601C /* RegisterVC.m */,
+				4198C1CB1CC600F6001E601C /* RegisterVC.xib */,
+				4198C1CC1CC600F6001E601C /* SetGestureCodeVC.h */,
+				4198C1CD1CC600F6001E601C /* SetGestureCodeVC.m */,
+				4198C1CE1CC600F6001E601C /* ZYTextField.h */,
+				4198C1CF1CC600F6001E601C /* ZYTextField.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		417B2A1D1CAD4BE500D9CFD3 /* Mine */ = {
+		4198C1D01CC600F6001E601C /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A221CAD4BE500D9CFD3 /* MineCell.h */,
-				417B2A231CAD4BE500D9CFD3 /* MineCell.m */,
-				417B2A241CAD4BE500D9CFD3 /* MineCell.xib */,
-				417B2A251CAD4BE500D9CFD3 /* MineVC.h */,
-				417B2A261CAD4BE500D9CFD3 /* MineVC.m */,
-				417B2A1E1CAD4BE500D9CFD3 /* Favorites */,
+				4198C1D11CC600F6001E601C /* Favorites */,
+				4198C1D41CC600F6001E601C /* MineCell.h */,
+				4198C1D51CC600F6001E601C /* MineCell.m */,
+				4198C1D61CC600F6001E601C /* MineCell.xib */,
+				4198C1D71CC600F6001E601C /* MineVC.h */,
+				4198C1D81CC600F6001E601C /* MineVC.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
 		};
-		417B2A1E1CAD4BE500D9CFD3 /* Favorites */ = {
+		4198C1D11CC600F6001E601C /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
-				417B2A201CAD4BE500D9CFD3 /* FavoritesVC.h */,
-				417B2A211CAD4BE500D9CFD3 /* FavoritesVC.m */,
+				4198C1D21CC600F6001E601C /* FavoritesVC.h */,
+				4198C1D31CC600F6001E601C /* FavoritesVC.m */,
 			);
 			path = Favorites;
 			sourceTree = "<group>";
@@ -717,12 +717,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				417B2A271CAD4BE500D9CFD3 /* BaseVC.bundle in Resources */,
+				4198C1E41CC600F6001E601C /* MineCell.xib in Resources */,
+				4198C1D91CC600F6001E601C /* BaseVC.bundle in Resources */,
 				417872E11CA93C19002E4BFF /* LaunchScreen.storyboard in Resources */,
 				417872DE1CA93C19002E4BFF /* Assets.xcassets in Resources */,
-				417B2A2D1CAD4BE500D9CFD3 /* RegisterVC.xib in Resources */,
+				4198C1DF1CC600F6001E601C /* RegisterVC.xib in Resources */,
 				417A0CFB1CAA4FB90073AD68 /* HudView.bundle in Resources */,
-				417B2A331CAD4BE500D9CFD3 /* MineCell.xib in Resources */,
 				417872DC1CA93C19002E4BFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -799,13 +799,13 @@
 				417A0B6E1CAA42D80073AD68 /* NSTimer+Category.m in Sources */,
 				4173D7FC1CAB7F9600445EF2 /* LoginVM.m in Sources */,
 				417A0D0E1CAA51530073AD68 /* AnimatePhoto.m in Sources */,
-				417B2A2B1CAD4BE500D9CFD3 /* HomeVC.m in Sources */,
+				4198C1DD1CC600F6001E601C /* HomeVC.m in Sources */,
 				4170FDD71CAA7A200038BDEE /* NSArray+MASAdditions.m in Sources */,
 				4170FDD91CAA7A200038BDEE /* View+MASAdditions.m in Sources */,
 				417872D61CA93C19002E4BFF /* AppDelegate.m in Sources */,
 				4170FDD61CAA7A200038BDEE /* MASViewConstraint.m in Sources */,
-				417B2A321CAD4BE500D9CFD3 /* MineCell.m in Sources */,
-				417B2A341CAD4BE500D9CFD3 /* MineVC.m in Sources */,
+				4198C1E31CC600F6001E601C /* MineCell.m in Sources */,
+				4198C1E51CC600F6001E601C /* MineVC.m in Sources */,
 				417A0B6F1CAA42D80073AD68 /* UIActionSheet+Blocks.m in Sources */,
 				417A0B781CAA42D90073AD68 /* UIViewController+Category.m in Sources */,
 				417A0CF61CAA4E8D0073AD68 /* Util.m in Sources */,
@@ -818,9 +818,9 @@
 				417A0B761CAA42D90073AD68 /* UINavigationController+Category.m in Sources */,
 				417A0B721CAA42D90073AD68 /* UIFont+Category.m in Sources */,
 				417A0B701CAA42D80073AD68 /* UIButton+Block.m in Sources */,
-				417B2A281CAD4BE500D9CFD3 /* BaseViewController.m in Sources */,
+				4198C1DA1CC600F6001E601C /* BaseViewController.m in Sources */,
 				4170FDD51CAA7A200038BDEE /* MASViewAttribute.m in Sources */,
-				417B2A2A1CAD4BE500D9CFD3 /* FindVC.m in Sources */,
+				4198C1DC1CC600F6001E601C /* FindVC.m in Sources */,
 				4170FDD41CAA7A200038BDEE /* MASLayoutConstraint.m in Sources */,
 				4170FDD11CAA7A200038BDEE /* MASCompositeConstraint.m in Sources */,
 				417A0B771CAA42D90073AD68 /* UIView+Category.m in Sources */,
@@ -832,17 +832,17 @@
 				417A0B751CAA42D90073AD68 /* UINavigationBar+ClearColor.m in Sources */,
 				417A0CF51CAA4E8D0073AD68 /* Define.m in Sources */,
 				4173D7EF1CAB7DC100445EF2 /* BaseRequest.m in Sources */,
-				417B2A311CAD4BE500D9CFD3 /* FavoritesVC.m in Sources */,
+				4198C1E21CC600F6001E601C /* FavoritesVC.m in Sources */,
 				4170FDDA1CAA7A200038BDEE /* ViewController+MASAdditions.m in Sources */,
-				417B2A2C1CAD4BE500D9CFD3 /* RegisterVC.m in Sources */,
-				417B2A2F1CAD4BE500D9CFD3 /* ZYTextField.m in Sources */,
+				4198C1DE1CC600F6001E601C /* RegisterVC.m in Sources */,
+				4198C1E11CC600F6001E601C /* ZYTextField.m in Sources */,
 				417872D31CA93C19002E4BFF /* main.m in Sources */,
 				417A0D111CAA51530073AD68 /* VCAnimateBase.m in Sources */,
 				417A0CE51CAA4C240073AD68 /* Hook.m in Sources */,
 				4173D7F31CAB7DD100445EF2 /* BaseVM.m in Sources */,
-				417B2A291CAD4BE500D9CFD3 /* BusinessVC.m in Sources */,
+				4198C1DB1CC600F6001E601C /* BusinessVC.m in Sources */,
 				417A0B6D1CAA42D80073AD68 /* NSString+Category.m in Sources */,
-				417B2A2E1CAD4BE500D9CFD3 /* SetGestureCodeVC.m in Sources */,
+				4198C1E01CC600F6001E601C /* SetGestureCodeVC.m in Sources */,
 				417A0B741CAA42D90073AD68 /* UIImagePickerController+Blocks.m in Sources */,
 				417A0D131CAA51530073AD68 /* VCAnimateManager.m in Sources */,
 				4170FDD21CAA7A200038BDEE /* MASConstraint.m in Sources */,
