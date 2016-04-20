@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "RegisterVC.h"
 #import "Define.h"
 
 @interface AppDelegate ()

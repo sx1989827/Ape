@@ -1,5 +1,5 @@
 //
-//  RegisterVC.h
+//  LoginVC.h
 //  Ape
 //
 //  Created by Geminy on 16/3/29.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface RegisterVC : BaseViewController
+@interface LoginVC : BaseViewController
 
 @end

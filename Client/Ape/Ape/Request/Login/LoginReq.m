@@ -16,3 +16,8 @@
 }
 
 @end
+
+@implementation LoginRes
+
+
+@end

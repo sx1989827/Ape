@@ -11,6 +11,10 @@
 #import "MineCell.h"
 #import "UIViewController+Category.h"
 #import "FavoritesVC.h"
+#import "UIView+Category.h"
+#import "UIColor+Category.h"
+#import "Reactivecocoa.h"
+#import "Masonry.h"
 
 #define cell_h 50
 
@@ -31,11 +35,21 @@
 {
     [_tableView setDelegateAndDataSource:self];
 
-//    UIView *tableHeaderView = [UIView alloc] initWithFrame:
-//    _tableView.tableHeaderView = tableHeaderView;
+    UIView *tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, self.view.width *0.4)];
+    _tableView.tableHeaderView = tableHeaderView;
+
+    UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [tableHeaderView addSubview:loginBtn];
+    [loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(tableHeaderView);
+    }];
+    [loginBtn setTitle:@"点击登录" forState:UIControlStateNormal];
+    [loginBtn setTitleColor:[UIColor hexStringToColor:@"333333"] forState:UIControlStateNormal];
+    [[loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        [self presentViewController:@"LoginVC" Param:nil];
+    }];
 
     [_tableView registarCell:NSStringFromClass([MineCell class]) StrItem:nil];
-
     [_tableView addStaticCell:cell_h CellBlock:^(id cell) {
         MineCell *mineCell = cell;
         mineCell.imgName = @"info";

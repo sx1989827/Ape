@@ -26,9 +26,11 @@ extern NSString *serverUrl;
 #define IPAD        (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
 #define kRandomColor kColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
 #define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define kColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
-#define kLightBlue kColor(38, 128, 255)
+#define kGlobalColor kColor(0, 190, 255)
+#define kGrayColor kColor(230, 230, 230)
 
 #define isIos7Later [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
 

@@ -15,7 +15,6 @@
 
 @end
 
-
 @implementation MineCell
 
 - (void)setImgName:(NSString *)imgName

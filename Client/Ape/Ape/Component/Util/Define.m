@@ -7,5 +7,5 @@
 //
 
 #import "Define.h"
-NSString *serverUrl=@"http://123.57.77.6:3001";
+NSString *serverUrl = @"http://123.57.77.6:3001";
 

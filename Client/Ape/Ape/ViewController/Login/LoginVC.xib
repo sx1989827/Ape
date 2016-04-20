@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterVC">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC">
             <connections>
+                <outlet property="answerTextF" destination="5LC-iu-kk7" id="8tP-GR-5bV"/>
+                <outlet property="inviteCodeTextF" destination="Egb-dC-0ze" id="MYX-vF-Alp"/>
+                <outlet property="nameTextF" destination="FaZ-nQ-pfa" id="4oY-qu-WUw"/>
+                <outlet property="phoneTextF" destination="ppR-a3-9Lt" id="9ok-ov-W3g"/>
+                <outlet property="questionTextF" destination="tlu-dd-9Lo" id="ndm-SR-cKm"/>
+                <outlet property="submitBtn" destination="buJ-A9-JW8" id="knV-sa-Awr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,8 +31,8 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                     <connections>
-                        <action selector="textFieldDidChanged:" destination="-1" eventType="editingChanged" id="xxp-fY-SLF"/>
-                        <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="BhX-ur-rr8"/>
+                        <action selector="textFieldDidChanged:" destination="-1" eventType="editingChanged" id="Lk0-oJ-nlW"/>
+                        <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="SIv-Mc-q6H"/>
                     </connections>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="昵称" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="FaZ-nQ-pfa" customClass="ZYTextField">
@@ -38,7 +44,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                     <connections>
-                        <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="UAx-cJ-Cyd"/>
+                        <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="tA7-md-dvu"/>
                     </connections>
                 </textField>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPw-OP-CEj">
@@ -52,8 +58,8 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
                             <connections>
-                                <action selector="textFieldDidChanged:" destination="-1" eventType="editingChanged" id="KxB-zS-Id8"/>
-                                <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="7ah-Lf-cj4"/>
+                                <action selector="textFieldDidChanged:" destination="-1" eventType="editingChanged" id="WeQ-RL-Odl"/>
+                                <action selector="textFieldEditingDidEnd:" destination="-1" eventType="editingDidEnd" id="iVF-9g-rx8"/>
                             </connections>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-ke-Bg7">
@@ -70,6 +76,9 @@
                                     <exclude reference="g9W-oZ-aES"/>
                                 </mask>
                             </variation>
+                            <connections>
+                                <action selector="helpBtnClick:" destination="-1" eventType="touchUpInside" id="9mW-2c-duE"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,7 +104,7 @@
                         </mask>
                     </variation>
                 </view>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="答案" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5LC-iu-kk7">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="答案 (如&quot;11&quot;)" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5LC-iu-kk7">
                     <rect key="frame" x="30" y="280" width="260" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="260" id="tzv-SK-Hr0"/>
@@ -104,7 +113,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="提示问题" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tlu-dd-9Lo">
+                <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="提示问题 (如:&quot;1+1=?&quot;)" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tlu-dd-9Lo">
                     <rect key="frame" x="30" y="234" width="260" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="DhX-uX-q5j"/>
@@ -113,9 +122,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buJ-A9-JW8">
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buJ-A9-JW8">
                     <rect key="frame" x="30" y="326" width="260" height="48"/>
-                    <color key="backgroundColor" red="0.11764705882352941" green="0.78431372549019607" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.027883429276315791" green="0.75000415335263149" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="48" id="8s1-rc-h79"/>
                         <constraint firstAttribute="width" constant="260" id="xhF-dm-LkQ"/>
